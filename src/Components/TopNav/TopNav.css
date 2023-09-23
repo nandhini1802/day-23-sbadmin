@@ -1,0 +1,97 @@
+li {
+    list-style: none;
+    padding: 10px;
+}
+
+.topNav {
+    width: 83vw;
+    background-color: black;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    transition: transform 0.3s ease-in-out;
+    position: fixed;
+}
+
+.fa-bars {
+    display: none;
+}
+
+.user-pop {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 13px;
+}
+
+.user-pop:hover {
+    background-color: aliceblue;
+}
+
+.user-pop p {
+    margin: 5px;
+}
+
+.mail-pop {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.mail-pop img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.mail-pop p {
+    font-size: 13px;
+    padding: 0;
+    margin: 0;
+}
+.bell-pop hr {
+    margin: 10px 0px;
+}
+.mail-pop:hover{
+    background-color: aliceblue;
+}
+.bell-pop {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 310px;
+}
+.bell-pop p {
+    font-size: 13px;
+    padding: 0;
+    margin: 0;
+}
+.bell-pop:hover{
+    background-color: aliceblue;
+}
+.user-pop p{
+    padding: 5px;
+}
+@media (max-width : 1050px) {
+
+    .topNav {
+        width: 100%;
+        padding: 20px 40px 20px 20px;
+    }
+
+    .fa-bars {
+        display: block;
+    }
+
+    .form-control {
+        display: none;
+    }
+    .bell{
+        font-size: 15px;
+        margin: 0px 5px;
+    }
+    .bell sup{
+        position: absolute;
+    }
+
+}
